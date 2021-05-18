@@ -6,7 +6,7 @@
 
 html {
   font-size: 62.5%;
-  background: linear-gradient(#826de086, #6ed1f0a1), url("./bg1.jpg");
+  background: linear-gradient(#775fe29a, #6ed1f0a1), url("./bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -22,7 +22,7 @@ input,
 p,
 a {
   font-size: 2rem;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 a {
@@ -39,6 +39,7 @@ header {
 .m-head {
   min-height: 10vh;
   display: flex;
+  flex-wrap: wrap;
   width: 90%;
   margin: auto;
   align-items: center;
@@ -72,21 +73,21 @@ header {
 .hero-section {
   height: 90vh;
   display: flex;
+  flex-wrap: wrap;
 }
 .mokup {
   height: 90vh;
-  width: 50vw;
-  overflow: hidden;
+  width: 49vw;
 }
 .mc {
-  width: 50vw;
+  width: 49vw;
   height: 90vh;
 }
 
 img {
-  width: 40%;
+  width: 37%;
   position: relative;
-  top: 30%;
+  top: 25%;
   left: 45%;
 }
 
@@ -113,4 +114,24 @@ img {
   background: #f8f8f888;
   text-decoration: none !important;
   display: inline-block;
+}
+
+footer {
+  background: white;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: end;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+span {
+  font-size: 5rem;
+  padding-bottom: 4rem;
+}
+
+footer p {
+  color: #4d4ec9;
+  font-size: 2.5rem;
 }
